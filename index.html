@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="start">
+        <h1>Totally Trivial Trivia!</h1><p></p>
+        <button type="begin" onClick="begin()" class="btn btn-light btn-lg">Start</button>
+        </div>
+        
+        <div class="secondDiv">
+            <h1>Totally Trivial Trivia!</h1>
+        </div>
+        <div class="thirdDiv">Time Remaining:<span class="time"></span></div>
+        <div class="fourthDiv">
+            <h3>What is another name for Batman?</h3>
+            <span><input type="radio" name="nameBatman" value="wrong">Flying Bat</span>
+            <span><input type="radio" name="nameBatman" value="correct">The Caped Crusader</span>
+            <span><input type="radio" name="nameBatman" value="wrong">Fastest Man Alive</span>
+            <span><input type="radio" name="nameBatman" value="wrong">The Man of Steel</span>
+        
+            <p></p>
+            <h3>What newspaper does Peter Parker work for?</h3>
+            <span><input type="radio" name="newspaper" value="wrong">The Daily Planet</span>
+            <span><input type="radio" name="newspaper" value="wrong">The Daily Chronicle</span>
+            <span><input type="radio" name="newspaper" value="correct">The Daily Bugle</span>
+            <span><input type="radio" name="newspaper" value="wrong">The Daily Globe</span>
+            <p></p>
+            <h3>In which Marvel Comic did Elektra make her entrance?</h3>
+            <span><input type="radio" name="elecktra" value="wrong">Spider-Man</span>
+            <span><input type="radio" name="elecktra" value="correct">Daredevil</span>
+            <span><input type="radio" name="elecktra" value="wrong">Batman</span>
+            <span><input type="radio" name="elecktra" value="wrong">Captain America</span>
+            <p></p>
+            <h3>When Billy Batson says which word, he turns into superhero Captain Marvel...?</h3>
+            <span><input type="radio" name="captainmarvel" value="wrong"> Beshuma</span>
+            <span><input type="radio" name="captainmarvel" value="wrong">Cunogo</span>
+            <span><input type="radio" name="captainmarvel" value="wrong">Morata</span>
+            <span><input type="radio" name="captainmarvel" value="correct">Shazam</span>
+            <p></p>
+            <h3>Which planet is Superman from?</h3>
+            <span><input type="radio" name="superman" value="wrong">Khan</span>
+            <span><input type="radio" name="superman" value="wrong">Cryto</span>
+            <span><input type="radio" name="superman" value="correct">Krypton</span>
+            <span><input type="radio" name="superman" value="wrong">Pluto</span>
+            <p></p>
+            <h3>Which of the following heroes was one of the original founders of the Avengers, in the comic books?</h3>
+            <span><input type="radio" name="avengers" value="correct">Ant-Man</span>
+            <!--Hank Pym, was the first one-->
+            <span><input type="radio" name="avengers" value="wrong">Wolverine</span>
+            <span><input type="radio" name="avengers" value="wrong">Spiderman</span>
+            <span><input type="radio" name="avengers" value="wrong">Captain America</span>
+            <p></p>
+            <h3>Who told Peter Parker "with great power comes great responsibility?"</h3>
+            <span><input type="radio" name="peterparker" value="correct">Uncle Ben</span>
+            <span><input type="radio" name="peterparker" value="wrong">Nick Fury</span>
+            <span><input type="radio" name="peterparker" value="wrong">Aunt May</span>
+            <span><input type="radio" name="peterparker" value="wrong">Tony Stark</span>
+            <p></p>
+            <h3>Which DC superhero's real name is Arthur Curry?</h3>
+            <span><input type="radio" name="arthurcurry" value="wrong">Batman</span>
+            <span><input type="radio" name="arthurcurry" value="wrong">Green Lantern</span>
+            <span><input type="radio" name="arthurcurry" value="correct">Aquaman</span>
+            <span><input type="radio" name="arthurcurry" value="wrong">Plastic Man</span>
+            <p></p>
+            <h3>Which of following heroes has taken the title of Spider-Man?</h3>
+            <span><input type="radio" name="Spider-Man" value="wrong">Harry Osborn</span>
+            <span><input type="radio" name="Spider-Man" value="wrong">Mary Jay</span>
+            <span><input type="radio" name="Spider-Man" value="correct">Miles Morales</span>
+            <span><input type="radio" name="Spider-Man" value="wrong">Aunt May</span>
+            <p></p>
+            <h3>What does Matt Murdock/Daredevil do for his day job?</h3>
+            <span><input type="radio" name="daredevil" value="wrong">Businessman</span>
+            <span><input type="radio" name="daredevil" value="wrong">Journalist</span>
+            <span><input type="radio" name="daredevil" value="wrong">Translator</span>
+            <span><input type="radio" name="daredevil" value="correct">Lawyer</span>
+            <p></p>
+            <button type="button" onClick="done()" id ="submit" class="btn btn-light">Done</button>
+            <p></p>
+            
+            <div class="end"></div>
+            
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
