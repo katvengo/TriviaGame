@@ -11,8 +11,8 @@ $(document).ready(function () {
 });
 
 var clockRunning = false;
-var time = 0
-var timerRunning = false
+var time = 0;
+var timerRunning = false;
 var intervalId;
 
 
@@ -24,21 +24,21 @@ function begin() {
     $('.fourthDiv').show();
     clockRunning = true;
     setTimeout(done, 420000); // Set timer 7 minutes
-if (!clockRunning) {
-    intervalId = setInterval(count, 1000);
-    $(".time").text("00:00");
+//if (!clockRunning) {
+    //intervalId = setInterval(count, 1000);
+    setInterval(function(){ 
+        time++
+        console.log('****',time);
+        $(".time").text(time);
+    }, 1000);
+    //$(".time").text("00:00");
 }
 
 function count() {
     time++
 }
 
-}
 
-function timeLeft() {
-    $('.time').append("");
-    console.log("Time left on the clock remaining");
-}
 
 function done() {
     $('.start').hide();
