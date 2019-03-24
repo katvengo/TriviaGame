@@ -30,11 +30,7 @@ $(document).ready(function () {
             time--
             $(".time").text(time);
         }, 1000);
-        //$(".time").text("00:00");
-    }
-    
-    function count() {
-        time++
+        
     }
     
     
@@ -46,8 +42,6 @@ $(document).ready(function () {
         $('.fourthDiv').hide();
         $('.end').show();
         
-        event.preventDefault()
-        console.log(event)
         var que1 = $("input[name=nameBatman]:checked").val();
         var que2 = $("input[name=newspaper]:checked").val();
         var que3 = $("input[name=elecktra]:checked").val();
@@ -77,34 +71,5 @@ $(document).ready(function () {
     
     
     
-    // $('#submit').on("click", function (event) {
-        //     event.preventDefault()
-        //     console.log(event)
-        //     var que1 = $("input[name=nameBatman]:checked").val();
-        //     var que2 = $("input[name=newspaper]:checked").val();
-        //     var que3 = $("input[name=elecktra]:checked").val();
-        //     var que4 = $("input[name=captainmarvel]:checked").val();
-        //     var que5 = $("input[name=superman]:checked").val();
-        //     var que6 = $("input[name=avengers]:checked").val();
-        //     var que7 = $("input[name=peterparker]:checked").val();
-//     var que8 = $("input[name=arthurcurry]:checked").val();
-//     var que9 = $("input[name=Spider-Man]:checked").val();
-//     var que10 = $("input[name=daredevil]:checked").val();
-
-//     var userAnswers = [que1, que2, que3, que4, que5, que6, que7, que8, que9, que10]
-//     for (var i = 0; i < userAnswers.length; i++) {
-//         if (userAnswers[i] === 'correct') {
-//             win++;
-
-//         }
-//         if(userAnswers[i] === 'wrong'){
-//             loss ++;
-//         }
-//         console.log(win)
-
-//     }
-//     $('.end').append('<h3>' + 'Correct Answers:  ' + win + '/' + userAnswers.length + '</h3>')
-//     $('.end').append('<h3>' + 'Wrong Answers:  ' + loss + '/' + userAnswers.length + '</h3>')
-
-// })
+    
 

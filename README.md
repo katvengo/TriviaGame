@@ -1,1 +1,2 @@
 # TriviaGame
+In this game you have 2 minutes to answer ten questions. Hitting 'Start" enters a new screen with a countdown timer of 120 seconds (2 minutes) When the timer finishes the clock stops and you can no longer continue playing the game. Hit done before the clock runs out to also see how you did. 

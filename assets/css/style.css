@@ -1,15 +1,28 @@
-@font-face { font-family: Heroes; src: url('Heroes\ Legend.ttf'); } 
-      h1 {
-         font-family: Heroes, 'sans-serif';
-         line-height: 75px;
-      }
+@font-face {
+    font-family: ComicAndy;
+    src: url('BadaboomBB_Reg.ttf');
+}
 
+h1 {
+    font-family: ComicAndy, 'sans-serif';
+    line-height: 75px;
+}
+
+@font-face {
+    font-family: qarmic;
+    src: url('comic-andy.zip');
+}
+
+h3 {
+    font-family: qarmic, 'sans-serif';
+
+}
 
 body {
     background-image: url("../images/unsplash.jpg");
     text-align: center;
     color: mediumslateblue;
-   
+
 
 
 }
@@ -20,11 +33,11 @@ h1 {
 }
 
 .maindiv {
-    background-color: rgba(230,230,250, 0.5);
+    background-color: rgba(230, 230, 250, 0.5);
     width: 700px;
     height: 600px;
     position: absolute;
-    top:0;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -39,14 +52,14 @@ h1 {
 
 }
 
-.fourthDiv{
+.fourthDiv {
     font-size: 14px;
-    background-color: rgba(230,230,250, 0.5);
+    background-color: rgba(230, 230, 250, 0.5);
 }
 
 h3 {
     font-weight: bold;
-    
+
 }
 
 .btn {
@@ -54,23 +67,23 @@ h3 {
     color: rgb(189, 162, 221);
 }
 
-h3{
+h3 {
     color: darkslateblue;
 
 }
 
-.start{
-    background-color: rgba(230,230,250, 0.8);
+.start {
+    background-color: rgba(230, 230, 250, 0.8);
     width: 500px;
     height: 300px;
     position: absolute;
-    top:0;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
 }
 
-.end{
+.end {
     color: black;
 }
